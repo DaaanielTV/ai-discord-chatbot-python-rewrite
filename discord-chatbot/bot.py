@@ -1,6 +1,9 @@
 import os
+from dotenv import load_dotenv
 import discord
 import requests
+
+load_dotenv()  # Laden der .env Datei
 
 client = discord.Client(intents=discord.Intents.default())
 
